@@ -20,7 +20,7 @@ Medified is an instant medical checkup service. It will predict the chances of g
 # Libraries&Tech stacks Used:
 1)Sci-kit Learn
 
-2)Flask
+2)Python Flask
 
 3)Joblib
 
