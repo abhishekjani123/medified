@@ -12,9 +12,13 @@ Medified is an instant medical checkup service. It will predict the chances of g
 4) [Kidney](https://www.kaggle.com/mansoordaku/ckdisease): Chronic Kidney Disease Dataset
 # Libraries&Tech stacks Used:
 1)Sci-kit Learn
+
 2)Flask
+
 3)Joblib
+
 4)Pandas
+
 5)Numpy
-6)Bootstrap
-7)HTML & CSS
+
+6)HTML, CSS& Bootstrap
