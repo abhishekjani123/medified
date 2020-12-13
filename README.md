@@ -42,3 +42,10 @@ Medified is an instant medical checkup service. It will predict the chances of g
 5) Created a chatbot using  [Dialougeflow](https://dialogflow.cloud.google.com/) and deployed it using [kommunitcate](https://www.kommunicate.io/product/dialogflow-integration)
 
 5) Deployed all ML models in Heroku and Hosted the website in Github pages.
+
+# Project Created by:
+  [Abdul Adhil PK](adhilcodes.me)        
+  [Muhammed Yoonus](yoonus47.github.io/Portfolio/)
+  [Muhammed Hashir PM](hashirpm.github.io/)
+ 
+
