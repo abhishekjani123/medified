@@ -12,6 +12,10 @@
     <link href="css/ekko-lightbox.css" rel="stylesheet">
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+
+    
+
   </head>
   <body id="top">
     <header>
@@ -66,7 +70,7 @@
         <div class="card mb-3" data-aos="flip-right">
         <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-file-alt fa-3x"></i>
             <div class="h4 pb-3">Scalability</div>    
-            <p>It is very easy to scale this to maximum possible extent upon expansion.</p>
+            <p>It is very easy to scale this to maximum possible extent upon expansion whenever necessary.</p>
           </div>
         </div>
       </div>
@@ -108,7 +112,7 @@
               <div class="text-primary"><img class="card-image" src="./images/cancer.svg" alt="">
                 <p class="font-weight-bold">Breast Cancer</p>
               </div>
-              <p>With more that 1 million cases in India every year, leading to dangerous complication if left unchecked. Get your check done within seconds by our service. </p>
+              <p>With more that 1 million cases in India every year, leading to dangerous complication if left unchecked. Get your check done within seconds. </p>
               <a class="smooth-scroll btn btn-outline-dark mt-4" href="https://cancerapii.herokuapp.com">Take a test</a>
             </div>
           </div>
@@ -128,9 +132,18 @@
     </div>
   </div>
 </div>
-
-<div class="da-section da-work bg-secondary" id="learn">
+<!-- Covid Stats -->
+<div class="da-section da-work bg-light" id="learn">
   <div class="container">
+    <div class="h3 pb-5 text-center" data-aos="fade-up">Covid Stats</div>
+    <div class="container-fluid">
+      <div class="row mb-1">
+        <div class="col-sm">
+          <div id="root"></div>
+        </div>
+      </div>
+  
+    </div>
   </div>
 </div>
 <!-- ---------------------Contact-------------------- -->
@@ -220,6 +233,30 @@
 /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
 </script>
 
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+     <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/papaparse@5.1.1/papaparse.min.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" crossorigin></script>
+
+    <!-- Load custom scripts. -->
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
